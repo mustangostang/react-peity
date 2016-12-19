@@ -6,7 +6,7 @@ export default class Bar extends React.Component {
   static propTypes = {
     values: React.PropTypes.any.isRequired,
     delimiter: React.PropTypes.string,
-    fill: React.PropTypes.string,
+    fill: React.PropTypes.array,
     height: React.PropTypes.number,
     min: React.PropTypes.number,
     max: React.PropTypes.number,
